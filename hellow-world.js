@@ -1,5 +1,4 @@
-let js = 'decent';
-if (js === 'decent') alert('wow nice its work');
+/*let js = 'decent';
 let first_name = 'saiful';
 console.log(first_name);
 console.log(first_name);
@@ -53,12 +52,27 @@ var marksBMI = (95 / (1.88 * 1.88));
 console.log(marksBMI);
 var johnsWeights = 85;
 var johnsHeight = 1.76;
-var johnsBMI = (95 / (1.76 * 1.76));
+var johnsBMI = (85 / (1.76 * 1.76));
 console.log(johnsBMI);
 console.log(marksBMI > johnsBMI);
+*/
+const firstName = 'saiful';
+const lastName = 'islam';
+const ocupation = 'web developer';
+const birthYear = 2000;
+const currentYear = 2021;
 
+const saif = "I'am " + firstName + ' ' + lastName + ', a ' + (currentYear - birthYear) + ' years old ' + ocupation + '!';
+console.log(saif);
+//upgrade 
+const saifNew = `I'am ${firstName} , a ${currentYear - birthYear} year old ${ocupation}!`;
+console.log(saifNew);
+const age = 19;
+const isOldEnough = age >= 18;
 
-
+if (isOldEnough) {
+  console.log('saiful can start driving license 🚗🚗🚓🚓🚓🚓🚓🚓🚓🚑🚑🚑🚑🚒🚒🚑🚗🚗🚗🚗🚗🚗🚗');
+}
 
 
 
