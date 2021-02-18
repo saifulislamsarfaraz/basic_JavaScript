@@ -152,10 +152,35 @@ switch (day) {
   default:
     console.log('Not a valid day!');
 }
-*/
+
 const bill = 275;
 
 console.log(`The total bill is ${(bill >= 50 && bill <= 300 ? ((bill * .15) + bill) : ((bill * .20) + bill))}`);
+*/
+//use strict Mode:
+'use strict';
+
+let carDriver = false;
+const driving = true;
+
+if (driving) carDriver = true;
+if (carDriver) console.log('I can drive :🚗');
+
+function fruitProcessor(apples, oranges) {
+  const juice = `juice with ${apples}  apples and ${oranges} oranges.`;
+  return juice;
+}
+
+const appleJuice = fruitProcessor(2, 4);
+console.log(appleJuice);
+
+
+
+function birthDate(dateOfBirth) {
+  return 2023 - dateOfBirth;
+}
+birthDate(1991);
+
 
 
 
