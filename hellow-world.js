@@ -34,7 +34,7 @@ console.log(firstName + ' ' + lastname);
 
 //comparison operatiors
 //console.log ()
-*/
+
 var marksWeights = 78;
 var marksHeight = 1.69;
 var marksBMI = (marksWeights / (marksHeight ** 2));
@@ -126,3 +126,67 @@ if (aTeam && bTeam >= 100) {
 } else if (aTeam === bTeam) {
   console.log('draw team both');
 } 
+
+
+const day = 'wednesday';
+switch (day) {
+  case 'monday':
+    console.log('Plan course structure');
+    console.log('Go to coding meetup');
+    break;
+  case 'tuesday':
+    console.log('Prepare theory videos');
+    break;
+  case 'wednesday':
+    console.log('Write code examples');
+  case 'thursday':
+    console.log('Write code examples');
+    break;
+  case 'friday':
+    console.log('Record videos');
+    break;
+  case 'saturday':
+  case 'sunday':
+    console.log('Enjoy weekend :D');
+    break;
+  default:
+    console.log('Not a valid day!');
+}
+*/
+const bill = 275;
+
+console.log(`The total bill is ${(bill >= 50 && bill <= 300 ? ((bill * .15) + bill) : ((bill * .20) + bill))}`);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
